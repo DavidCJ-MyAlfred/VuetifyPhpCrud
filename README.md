@@ -5,5 +5,6 @@ Se desarrollo la funcionalidad del crud utilizando diversas tecnologia entre la 
 Funcionalidades del crud:
  
  MENU PRINCIPAL:
+ <img src="https://drive.google.com/drive/folders/1sCvp-nzvqsR7bCxF7ew0pOQiJA2sk5C7" />
  
  
