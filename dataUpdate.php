@@ -9,6 +9,7 @@ if (isset($_POST['update2'])) {
     $correo = $_POST['correo'];
     $telefono = $_POST['telefono'];
     $direccion = $_POST['direccion'];
+    
     $sql = "UPDATE alumno SET nombres='$nombres',
                                     documento='$documento',
                                     tipodoc=' $tipodoc',

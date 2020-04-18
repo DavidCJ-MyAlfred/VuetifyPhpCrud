@@ -28,15 +28,11 @@
                 </div>
                 <br />
                 <div class="col-md-6">
-                  <div class="input-group mb-3">
+                  <div class="input-group">
                     <div class="input-group-prepend">
-                      <label class="input-group-text mdi mdi-layers text-white" style="background-color:#8e9eab">TIPO DE DOCUMENTO:</label>
+                      <div class="input-group-text mdi mdi-folder-account text-white" style="background-color:#8e9eab">DOCUMENTO:</div>
                     </div>
-                    <select class="custom-select" name="tipodoc" id="tipodoc" required>
-                      <option selected>Seleccioné...</option>
-                      <option name="tipodoc" id="tipodoc" text="TI">TI</option>
-                      <option name="tipodoc" id="tipodoc" text="CC">CC</option>
-                    </select>
+                    <input type="text" class="form-control" name="tipodoc" id="tipodoc">
                   </div>
                 </div>
                 <br />
