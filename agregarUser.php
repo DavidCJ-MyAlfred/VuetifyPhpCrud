@@ -59,7 +59,7 @@
                                                     <div class="input-group-prepend">
                                                         <div class="input-group-text mdi mdi-gmail text-white" style="background-color:#8e9eab">CORREO:</div>
                                                     </div>
-                                                    <input type="text" class="form-control" name="correo" placeholder="Ingrese su correo" required>
+                                                    <input type="email" class="form-control" name="correo" placeholder="Ingrese su correo" required>
                                                 </div>
                                             </div>
                                             <br />

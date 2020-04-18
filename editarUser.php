@@ -23,7 +23,16 @@
                     <div class="input-group-prepend">
                       <div class="input-group-text mdi mdi-account-box-outline text-white" style="background-color:#8e9eab;">NOMBRES:</div>
                     </div>
-                    <input type="text" class="form-control" name="nombres" id="nombres" required>
+                    <input type="text" class="form-control" name="nombres" id="nombres"  placeholder="Indique sus nombres y apellidos" required>
+                  </div>
+                </div>
+                <br />
+                <div class="col-md-6">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text mdi mdi-folder-account text-white" style="background-color:#8e9eab">TIPO DE DOCUMENTO:</div>
+                    </div>
+                    <input type="text" class="form-control" name="tipodoc" id="tipodoc" placeholder="Indique tipo de documento TI O CC" required>
                   </div>
                 </div>
                 <br />
@@ -32,16 +41,7 @@
                     <div class="input-group-prepend">
                       <div class="input-group-text mdi mdi-folder-account text-white" style="background-color:#8e9eab">DOCUMENTO:</div>
                     </div>
-                    <input type="text" class="form-control" name="tipodoc" id="tipodoc">
-                  </div>
-                </div>
-                <br />
-                <div class="col-md-6">
-                  <div class="input-group">
-                    <div class="input-group-prepend">
-                      <div class="input-group-text mdi mdi-folder-account text-white" style="background-color:#8e9eab">DOCUMENTO:</div>
-                    </div>
-                    <input type="text" class="form-control" name="documento" id="documento">
+                    <input type="text" class="form-control" name="documento" id="documento" placeholder="Indique el # de documento" required>
                   </div>
                 </div>
                 <br />
@@ -50,7 +50,7 @@
                     <div class="input-group-prepend">
                       <div class="input-group-text mdi mdi-cellphone text-white" style="background-color:#8e9eab">TELEFONO:</div>
                     </div>
-                    <input type="text" class="form-control" name="telefono" id="telefono">
+                    <input type="text" class="form-control" name="telefono" id="telefono" placeholder="Indique su # telefonico" required>
                   </div>
                 </div>
                 <br />
@@ -59,7 +59,7 @@
                     <div class="input-group-prepend">
                       <div class="input-group-text mdi mdi-gmail text-white" style="background-color:#8e9eab">CORREO:</div>
                     </div>
-                    <input type="text" class="form-control" name="correo" id="correo">
+                    <input type="email" class="form-control" name="correo" id="correo" placeholder="Indique su correo" required> 
                   </div>
                 </div>
                 <br />
@@ -68,7 +68,7 @@
                     <div class="input-group-prepend">
                       <div class="input-group-text mdi mdi-google-maps text-white" style="background-color:#8e9eab">DIRECCION:</div>
                     </div>
-                    <input type="text" class="form-control" name="direccion" id="direccion">
+                    <input type="text" class="form-control" name="direccion" id="direccion" placeholder="Indique su dirección" required>
 
                   </div>
                 </div>
